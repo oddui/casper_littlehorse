@@ -56,21 +56,7 @@
 
         {{/author}}
 
-            <section class="share">
-                <h4>Share this post</h4>
-                <a href="http://service.weibo.com/share/share.php?url={{url absolute="true"}}&appkey=&title={{encode title}}&pic={{image absolute="true"}}&ralateUid=&language=zh_cn"
-                    onclick="window.open(this.href, 'weibo-share', 'width=550,height=235');return false;">
-                  <i class="fa fa-lg fa-weibo"></i>
-                </a>
-                <a href="http://share.renren.com/share/buttonshare.do?link={{url absolute="true"}}&title={{encode title}}"
-                    onclick="window.open(this.href, 'renren-share', 'width=1050,height=645');return false;">
-                  <i class="fa fa-lg fa-renren"></i>
-                </a>
-                <a href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
-                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-                  <i class="fa fa-lg fa-facebook-square"></i>
-                </a>
-            </section>
+            {{> share}}
 
         </footer>
 
