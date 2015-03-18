@@ -41,7 +41,7 @@ var fn = function () {
   $layer = $('section.share div#wechat-share-layer'),
   wshare = wechatShare($layer[0]);
 
-  if (wshare.isWechatBrowser) {
+  if (wshare && wshare.isWechatBrowser) {
     $buttons.toggle();
   }
 
