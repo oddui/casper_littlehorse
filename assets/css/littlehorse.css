@@ -7,8 +7,10 @@ div#disqus_thread {
 
 @media only screen and (max-width: 500px) {
   div#disqus_thread {
-    padding: 2rem 0 3rem 0;
     text-align: center;
+  }
+  div#disqus_thread iframe {
+    margin: 0;
   }
 }
 
