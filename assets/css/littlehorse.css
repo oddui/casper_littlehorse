@@ -34,3 +34,14 @@ div#wechat-share-layer {
   text-align: left;
   color: #fff;
 }
+
+
+.post-footer .share i.fa-weibo:hover {
+  color: #e02831;
+}
+.post-footer .share i.fa-renren:hover {
+  color: #217dc6;
+}
+.post-footer .share i.fa-facebook-square:hover {
+  color: #3b5998;
+}
